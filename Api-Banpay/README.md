@@ -20,8 +20,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/fastapi-ghibli.git
-   cd fastapi-ghibli
+
 
  Si deseas trabajar fuera del contenedor, crea un entorno virtual para aislar las dependencias del proyecto:
   python3 -m venv venv
@@ -51,8 +50,8 @@ Flyway: Aplicará las migraciones de la base de datos ubicadas en la carpeta ./m
 
 Aplicación Python: Servicio principal de la aplicación en el puerto 8000.
 
-Si no lo agrega se puede crear la base con cualquier cliente Postgres
- agregando:
+Si no lo agrega se puede agregar la base con cualquier cliente Postgres
+ agregando para Dbeaver se puede visualizar la imagen dentro de la raiz:
  ![alt text](image.png)
  password: password
 3. Acceder a la aplicación
