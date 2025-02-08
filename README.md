@@ -20,8 +20,8 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/fastapi-ghibli.git
-   cd fastapi-ghibli
+   git clone repo
+   cd project
 
  Si deseas trabajar fuera del contenedor, crea un entorno virtual para aislar las dependencias del proyecto:
   python3 -m venv venv
