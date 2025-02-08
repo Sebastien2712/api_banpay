@@ -52,14 +52,18 @@ Flyway: Aplicará las migraciones de la base de datos ubicadas en la carpeta ./m
 Aplicación Python: Servicio principal de la aplicación en el puerto 8000.
 
 Si no lo agrega se puede crear la base con cualquier cliente Postgres
- agregando:
- ![alt text](image.png)
- password: password
+ ejemplo Dbeaver:
+en la raiz como image.png
+
+ password: password(agregar el passworod)
+ 
 3. Acceder a la aplicación
 Una vez que los contenedores estén en funcionamiento, la aplicación estará disponible en:
     http://localhost:8000
 
-se agregó la colecion de postman
+se agregó la coleccion de postman esta en la raiz del proyecto:
+Banpay.postman_collection.json
+
 - **Endpoint**:
    - `GET /users/`
    - `GET /users/id(int)`
